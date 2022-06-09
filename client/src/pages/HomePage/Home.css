@@ -1,0 +1,109 @@
+.Home{
+    display: flex;
+}
+.middleContainer{
+    flex:6;
+    background-color: #f2f7fb;
+}
+
+.cards{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.m-center{
+    display: flex;
+    flex:1;
+    background-color:#fff;
+    -webkit-box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66); 
+    box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
+    height:90px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin:25px;
+    border-bottom: 4px solid rgb(66, 66, 74);
+    
+}
+.m-center .card-icon{
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+}
+.doctors{
+    display: flex;
+    flex:1;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66); 
+    box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
+    height:90px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin:25px;
+    border-bottom: 4px solid rgb(73, 163, 241);
+}
+.doctors .card-icon{
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    
+}
+.appointments{
+    display: flex;
+    flex:1;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66); 
+    box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
+    height:90px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin:25px;
+    border-bottom: 4px solid rgb(102, 187, 106);
+}
+.appointments .card-icon{
+    background: linear-gradient(195deg, rgb(102, 187, 106), rgb(67, 160, 71));
+}
+.revenue{
+    display: flex;
+    flex:1;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66); 
+    box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
+    height:90px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin:25px;
+    border-bottom: 4px solid rgb(236, 64, 122);
+}
+.revenue .card-icon{
+    background: linear-gradient(195deg, rgb(236, 64, 122), rgb(216, 27, 96));
+}
+
+.card-icon{
+    background-color: #567899;
+    width:50px;
+    border-radius:12px;
+    height:50px;
+    margin-top: -15px;
+    margin-left: -15px;
+    
+
+}
+
+.path{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 50px;
+    
+}
+
+
+
+/* Feature Card and Chart Style*/
+
+.charts{
+    margin-top: -18px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+

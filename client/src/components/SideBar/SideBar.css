@@ -2,6 +2,7 @@
     flex:1;
     background: #1d2531;
     min-height: 100vh;
+    position:sticky;
 }
 
 

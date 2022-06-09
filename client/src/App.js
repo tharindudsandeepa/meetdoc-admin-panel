@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./components/HomePage/Home";
+import Home from "./pages/HomePage/Home";
 
 import ReactDOM from "react-dom/client";
 import {
@@ -7,6 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Login from "./pages/LoginPage/Login";
 
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
+                <Route path="login" element={<Login/>}></Route>
             </Routes>
         </BrowserRouter>
         </div>

@@ -6,15 +6,16 @@ import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
+import HomeSharpIcon from '@mui/icons-material/HomeSharp';
+
 
 
 function NavBar(){
     return(
         <div className="NavBar">
             <div className="Wrapper">
-                <div className="menu">
-                        <MenuSharpIcon sx={{ fontSize: "39px",color:"#fff",mt:"2px","&:hover":{cursor:"pointer",color:"#263544;"} }}/>
-                </div>
+                
+                
                 
                 <div className="search">
                     <input type="text"   placeholder="Search"/>

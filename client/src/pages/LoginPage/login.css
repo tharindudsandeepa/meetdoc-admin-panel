@@ -1,0 +1,113 @@
+.Login{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f7fb;
+    min-height: 100vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: row;
+    bottom: 200px;
+    position: relative;
+    min-height: 370px;
+    border-radius: 10px;
+    width:50%;
+    
+}
+.logoName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 200px;
+    position: relative;
+    margin-top: 220px;
+}
+.intro{
+    background: linear-gradient(195deg, #1d2531, #415674);
+    flex:1;
+    border-radius: 15px 0 0 15px;
+    margin:20px 0 0 20px;
+    min-height:auto;
+    color:rgb(181, 181, 181);    
+
+}
+.intro h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+    color:rgb(181, 181, 214);
+}
+
+.question{
+    font-size: 20px;
+    font-weight: 400;
+    color:#f2f7fb;
+}
+.answer{
+    font-size: 16px;
+    font-weight: 500;
+    color:#bbcae0;
+}
+.help{
+    margin-top: 400px;
+    font-size: 15px;
+    font-weight: 300;
+    color:rgb(181, 181, 214);
+}
+.help span{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.login-side{
+    background-color: #fff;
+    flex: 1;
+    border-radius: 0 15px 15px 0;
+    margin: 20px 20px 0 0;
+}
+.login-side h2{
+    margin-top: 23px;
+    font-size: 30px;
+    font-weight:500;
+    color: #333f4f;
+}
+.intro p{
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.login-title{
+    margin-left: 20px;
+
+}
+.login-side form{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.login-button{
+    background-color:#1d2531;;
+	border-radius:10px;
+    border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:8px 50px;
+    margin:30px auto;
+    width:inherit;
+    background: linear-gradient(195deg, #1d2531, #415674);
+}
+.brand-name{
+    font-size: 40px;
+    color: rgb(52, 50, 50);
+}
+.product-name{
+    color:gray;
+    margin-bottom: 20px;
+}
