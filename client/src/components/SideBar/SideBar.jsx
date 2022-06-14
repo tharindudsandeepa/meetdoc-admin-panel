@@ -12,6 +12,7 @@ import FactCheckOutlinedIcon from '@mui/icons-material/FactCheckOutlined';
 import ThumbDownAltOutlinedIcon from '@mui/icons-material/ThumbDownAltOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import HealthAndSafetyRoundedIcon from '@mui/icons-material/HealthAndSafetyRounded';
+import { NavLink} from "react-router-dom";
 
 
 const SideBar=()=>{
@@ -24,37 +25,53 @@ const SideBar=()=>{
             
             <div className="bottom">
                 <ul>
-                    <li>
-                        <DashboardOutlinedIcon className="icon"/>
-                        <span>Dashboard</span>
+                    <li className="dashboard-link">
+                        <NavLink to="/" className='nav-link'>
+                            <DashboardOutlinedIcon className="icon"/>
+                            <span>Dashboard</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <EmailOutlinedIcon className="icon"/>
-                        <span>Email</span>
+                    <li className="email-link">
+                        <NavLink to="/email" className='nav-link'>
+                            <EmailOutlinedIcon className="icon"/>
+                            <span>Email</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <MedicalServicesOutlinedIcon className="icon"/>
-                        <span>Medical Centers</span>
+                    <li className="medical center-link">
+                        <NavLink to='/medicalcenters' className='nav-link'>
+                            <MedicalServicesOutlinedIcon className="icon"/>
+                            <span>Medical Centers</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <ReceiptOutlinedIcon className="icon"/>
-                        <span>Transactions</span>
+                    <li className="transaction-link">
+                        <NavLink to='/transactionpage' className='nav-link'>
+                            <ReceiptOutlinedIcon className="icon"/>
+                            <span>Transactions</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <AddBoxOutlinedIcon className="icon"/>
-                        <span>Add Medical Center</span>
+                    <li className="add-link">
+                        <NavLink to='/addmedicalcenter' className='nav-link'>
+                            <AddBoxOutlinedIcon className="icon"/>
+                            <span>Add Medical Center</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <FactCheckOutlinedIcon className="icon"/>
-                        <span>Approved List</span>
+                    <li className="approve-link">
+                        <NavLink to='/approvedlist' className='nav-link'>
+                            <FactCheckOutlinedIcon className="icon"/>
+                            <span>Approved List</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <ThumbDownAltOutlinedIcon className="icon"/>
-                        <span>Rejected List</span>
+                    <li className="reject-link">
+                        <NavLink to='/rejectlist' className='nav-link'>
+                            <ThumbDownAltOutlinedIcon className="icon"/>
+                            <span>Rejected List</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <SettingsOutlinedIcon className="icon"/>
-                        <span>Settings</span>
+                    <li className="setting-link">
+                        <NavLink to='/settings' className='nav-link'>
+                            <SettingsOutlinedIcon className="icon"/>
+                            <span>Settings</span>
+                        </NavLink>
                     </li>
                 </ul>
             </div>

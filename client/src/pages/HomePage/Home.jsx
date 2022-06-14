@@ -26,28 +26,28 @@ function Home(){
                 </div>
                 <div className="cards">
                     <div className="m-center">
-                        <div className="card-icon"><HomeWorkSharpIcon sx={{ fontSize: "45px",margin:"4px", color:"#fff" }} /></div>
+                        <div className="card-icon"><HomeWorkSharpIcon sx={{ fontSize: "38px",margin:"4px", color:"#fff" }} /></div>
                         <Card 
                             name="Medical Centers"
                             info="+261"
                         />
                     </div>
                     <div className="doctors">
-                        <div className="card-icon"><PeopleIcon sx={{ fontSize: "45px",margin:"4px",color:"#fff"}}/></div>
+                        <div className="card-icon"><PeopleIcon sx={{ fontSize: "38px",margin:"4px",color:"#fff"}}/></div>
                         <Card 
                             name="Doctors"
                             info="+987"
                         />
                     </div>
                     <div className="appointments">
-                        <div className="card-icon"><LibraryBooksSharpIcon sx={{ fontSize: "45px",margin:"4px", color:"#fff" }}/></div>
+                        <div className="card-icon"><LibraryBooksSharpIcon sx={{ fontSize: "38px",margin:"4px", color:"#fff" }}/></div>
                         <Card 
                             name="Appointments"
-                            info="+4567"    
+                            info="+3867"    
                         />
                     </div>
                     <div className="revenue">
-                        <div className="card-icon"><MonetizationOnSharpIcon sx={{ fontSize: "45px",margin:"4px",color:"#fff"}}/></div>
+                        <div className="card-icon"><MonetizationOnSharpIcon sx={{ fontSize: "38px",margin:"4px",color:"#fff"}}/></div>
                         <Card 
                             name="Revenue"
                             info="+$12,678"
@@ -56,11 +56,24 @@ function Home(){
                 </div>
 
                 <div className="charts">
-                    <FeatureCard/>
-                    <Chart/>
+                    <FeatureCard 
+                        title="Revenue"
+                        value="40"
+                        subtitle="Revenue of this month"
+                        subvalue="$452"
+                    />
+                    <Chart
+                        data="data1"
+                        desc="Revenue"
+                    />
                 </div>
                 <div className="charts">
-                    <FeatureCard/>
+                    <FeatureCard 
+                        title="New Customers"
+                        value="57"
+                        subtitle="New users in this month"
+                        subvalue="18"
+                    />
                     <Chart/>
                 </div>
 

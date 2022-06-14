@@ -4,3 +4,9 @@
     box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
     margin: 5px;
 }
+.chart-title{
+    margin:20px;
+    font-size: 19px;
+    color: rgb(64, 63, 63);
+    font-weight: 400;
+}

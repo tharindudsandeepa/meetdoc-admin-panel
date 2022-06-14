@@ -1,0 +1,7 @@
+.transaction-page{
+    display: flex;
+}
+.middleContainer{
+    flex:6;
+    background-color: #f2f7fb;
+}

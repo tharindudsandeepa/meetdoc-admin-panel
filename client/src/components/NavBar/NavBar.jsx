@@ -1,12 +1,11 @@
 import React from "react";
 import "./navbar.css";
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
 import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
-import MenuSharpIcon from '@mui/icons-material/MenuSharp';
-import HomeSharpIcon from '@mui/icons-material/HomeSharp';
+
 
 
 

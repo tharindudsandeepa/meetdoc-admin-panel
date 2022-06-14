@@ -60,3 +60,10 @@
 .NavBar{
     display: flex;
 }
+.nav-link{
+    text-decoration: none;
+    color:#b7c0cd;
+
+}
+
+

@@ -1,0 +1,7 @@
+.medical-centers{
+    display: flex;
+}
+.middleContainer{
+    flex:6;
+    background-color: #f2f7fb;
+}
