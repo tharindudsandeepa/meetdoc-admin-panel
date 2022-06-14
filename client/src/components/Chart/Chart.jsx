@@ -39,7 +39,7 @@ const data = [
 function Chart() {
   return (
     <div className='chart'>
-       <div className="chart-title">Revenue- Last 6 months</div>
+       <div className="chart-title">Revenue - Last 6 months</div>
         <ResponsiveContainer width="100%" height="100%">
         <AreaChart
           width={500}

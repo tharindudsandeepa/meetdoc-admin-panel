@@ -68,13 +68,8 @@ function Home(){
                     />
                 </div>
                 <div className="charts">
-                    <FeatureCard 
-                        title="New Customers"
-                        value="57"
-                        subtitle="New users in this month"
-                        subvalue="18"
-                    />
-                    <Chart/>
+                    
+                    
                 </div>
 
             </div>

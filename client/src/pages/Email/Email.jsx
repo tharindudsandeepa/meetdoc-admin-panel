@@ -3,6 +3,7 @@ import './email.css';
 
 import SideBar from "../../components/SideBar/SideBar";
 import NavBar from "../../components/NavBar/NavBar";
+import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
 
 
 function Email(){
@@ -12,7 +13,10 @@ function Email(){
             <div className="middleContainer">
                 <NavBar/>
                 <div className="email-container">
-                    email List
+                    <div className="path">
+                        <MailOutlineSharpIcon sx={{ml:"-20px",color:"gray"}}/>
+                        <span className="path-text">/Email</span>
+                    </div>
                 </div>
             </div>
         </div>
