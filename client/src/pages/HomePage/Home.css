@@ -106,5 +106,18 @@
     padding: 20px;
     gap: 20px;
 }
+.listcontainer{
+    -webkit-box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66); 
+    box-shadow: 2px 3px 12px -6px rgba(38,53,68,0.66);
+    margin:22px;
+    padding: 20px;;
+}
+.listtitle{
+    margin-top:15px;
+    padding:10px;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(85, 83, 83);
+}
 
 

@@ -26,7 +26,7 @@ function Login(){
                 <div className="login-side">
                     <h2 className="login-title">Login</h2>
                     <form action="">
-                        <FormInput label="Username" placeholder="Username" type="text"/>
+                        <FormInput label="Email" placeholder="Email" type="email"/>
                         <FormInput label="Password" placeholder="Password" type="password"/>
                         <button type="submit" className="login-button">Login</button>
                     </form>

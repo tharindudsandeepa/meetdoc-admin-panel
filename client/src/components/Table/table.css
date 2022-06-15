@@ -1,0 +1,10 @@
+.tableCellhead{
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(35, 35, 110);
+}
+.tableCell{
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(58, 57, 57);
+}

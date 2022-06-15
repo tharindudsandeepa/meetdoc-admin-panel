@@ -13,6 +13,7 @@ import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 
 import Chart from "../../components/Chart/Chart";
 import FeatureCard from "../../components/FeatureCard/FeatureCard";
+import List from "../../components/Table/Table";
 
 function Home(){
     return(
@@ -67,9 +68,9 @@ function Home(){
                         desc="Revenue"
                     />
                 </div>
-                <div className="charts">
-                    
-                    
+                <div className="listcontainer">
+                    <div className="listtitle">Latest Transactions</div>
+                    <List/>
                 </div>
 
             </div>
